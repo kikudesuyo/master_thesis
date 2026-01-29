@@ -1,0 +1,19 @@
+# Fdb version 4
+["pdflatex"] 1769591578.93614 "/Users/kiku/directory/University/master_thesis/main.tex" "main.pdf" "main" 1769591580.6464 2
+  "/Users/kiku/directory/University/master_thesis/main.tex" 1768785906.95669 680 1e5a6883e24640b643d8642d79d3d291 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty" 1575499628 8356 7bbb2c2373aa810be568c29e333da8ed ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/tools/.tex" 1748806692 1426 312928b6630330d503bb0f967fdefb35 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls" 1749932549 54429 3ced441fe642c2786693ac3721b8e3e8 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexja/luatexja-compat.sty" 1761595623 3553 628e3ea0d09430b19db595c6e4c4ef59 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexja/luatexja-core.sty" 1728933045 29886 63e89c93faeaadea0d8b3dd231e616da ""
+  "/usr/local/texlive/2025/texmf-dist/tex/luatex/luatexja/luatexja.sty" 1767818051 1902 e1581f5cb12394c48423e1ecd533f21e ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1749313668 42213 4e2ca030e8e2640502016e9e45868dcb ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1768749292 3635749 b957635695ae809a64400dcaf3d4fa32 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "main.aux" 1769591570.93454 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1768785906.95669 680 1e5a6883e24640b643d8642d79d3d291 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

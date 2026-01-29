@@ -2,12 +2,9 @@
 
 \input{preamble}
 
-\title{修士論文タイトル(仮)}
-\author{著者名}
-
 \begin{document}
 
-\maketitle
+\input{sections/title_page}
 \tableofcontents
 \clearpage
 
@@ -15,20 +12,47 @@
 \clearpage
 
 \section{序論}
-\input{sections/introduction/ee_index}
-\input{sections/introduction/eej}
+\input{sections/introduction/background}
+\input{sections/introduction/current_status_issues}
+\input{sections/introduction/purpose}
+\input{sections/introduction/structure}
 
-\section{研究目的}
-\input{sections/purpose/eej_characteristics}
-\input{sections/purpose/space_weather_system}
+\section{導入}
+\input{sections/background/magdas}
+\input{sections/background/intermagnet_ttb}
+\input{sections/background/geomagnetic_sq}
+\input{sections/background/eej_cowling}
+\input{sections/background/tidal_effects}
 
-\section{結果1}
-\input{sections/result_detection/auto_detection}
+\section{EE-index}
+\input{sections/ee_index/definition}
+\input{sections/ee_index/data_sources}
+\input{sections/ee_index/calculation_method}
+\input{sections/ee_index/accuracy_improvement}
 
-\section{結果2}
-\input{sections/result_characteristics/occurrence_characteristics}
+\section{特異型EEJと自動判定の手法}
+\input{sections/abnormal_eej/definition}
+\input{sections/abnormal_eej/types}
+\input{sections/abnormal_eej/detection_method}
 
-\input{sections/system_development}
+\section{結果: 特異型EEJの発生特性}
+\input{sections/results/conditions}
+\input{sections/results/south_america}
+\input{sections/results/brazil}
+
+\section{考察}
+\input{sections/discussion/south_america_factors}
+\input{sections/discussion/seasonal_dependence}
+\input{sections/discussion/tidal_effects}
+
+\section{宇宙天気データベースシステムへの応用}
+\input{sections/system/purpose}
+\input{sections/system/architecture}
+%\input{sections/system/tech_stack} % Merged into architecture.tex
+\input{sections/system/methodology}
+\input{sections/system/setup}
+\input{sections/system/future_issues}
+
 \input{sections/conclusion}
 
 \bibliographystyle{unsrt}

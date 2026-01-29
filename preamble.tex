@@ -4,3 +4,33 @@
 \usepackage{url} % For URLs
 \usepackage[hidelinks]{hyperref} % For hyperlinks
 \usepackage{booktabs} % For nice tables
+\usepackage{longtable} % For long tables
+\usepackage{float} % For H placement
+\usepackage{tikz}
+\usetikzlibrary{shapes, arrows, positioning, shapes.geometric, shadows}
+\usepackage{listings} % For code listing
+\usepackage{xcolor} % For colors
+
+% Define Markdown-like listing style
+\definecolor{codegray}{rgb}{0.95,0.95,0.95}
+\lstdefinestyle{markdown}{
+    backgroundcolor=\color{codegray},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=none,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    columns=fullflexible,
+    xleftmargin=1em,
+    xrightmargin=1em,
+    aboveskip=1em,
+    belowskip=1em,
+    framesep=0.5em,
+    frame=single,
+    rulecolor=\color{codegray},
+    framerule=0pt
+}
+\lstset{style=markdown}

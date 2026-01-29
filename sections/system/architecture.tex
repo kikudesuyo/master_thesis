@@ -1,0 +1,115 @@
+\subsection{システム全体構成}
+本章では、本システムの全体構成および採用した技術スタックについて述べる。
+
+\subsubsection{全体構成とリポジトリ運用の工夫}
+本システムの開発プロジェクトは、フロントエンドとバックエンドを単一のリポジトリで管理するモノレポ（Monorepo）構成を採用している。
+図\ref{fig:system_architecture}にシステムの全体構成図を示す。
+ユーザーはWebブラウザを通じてシステムにアクセスし、フロントエンドがバックエンドのAPIを利用してMAGDAS観測データを取得・表示する構成となっている。
+
+\begin{figure}[H]
+  \centering
+  \resizebox{\textwidth}{!}{
+    \begin{tikzpicture}[
+        node distance=1.0cm,
+        auto,
+        font=\small,
+        % Styles
+        component/.style={
+            rectangle,
+            draw=black!60,
+            thick,
+            fill=white,
+            text width=3.0cm,
+            align=center,
+            rounded corners,
+            minimum height=2.0cm,
+            drop shadow
+          },
+        database/.style={
+            cylinder,
+            cylinder uses custom fill,
+            cylinder body fill=gray!10,
+            cylinder end fill=gray!30,
+            shape border rotate=90,
+            aspect=0.25,
+            draw=black!60,
+            thick,
+            text width=2.5cm,
+            align=center,
+            font=\footnotesize,
+            minimum height=2.0cm,
+            minimum width=2.0cm
+          },
+        user/.style={
+            circle,
+            draw=black!60,
+            thick,
+            fill=orange!10,
+            minimum size=1.5cm,
+            align=center
+          },
+        arrow/.style={
+            ->,
+            >=stealth,
+            thick,
+            shorten <=2pt,
+            shorten >=2pt
+          }
+      ]
+      % Nodes
+      % User Node (Left)
+      \node[user] (user) {User};
+      \node[below=0.1cm of user] {Browser};
+
+      % Frontend Node
+      \node[component, right=2.0cm of user] (frontend) {\textbf{Frontend} \\ (React / TypeScript)};
+
+      % Backend Node
+      \node[component, right=1.5cm of frontend] (backend) {\textbf{Backend} \\ (Python / FastAPI)};
+
+      % Database Node (Right)
+      \node[database, right=1.5cm of backend] (data) {\textbf{\mbox{MAGDAS}} Data \\ (.mag Files)};
+
+      % Arrows (Interaction Flow)
+      \draw[arrow] (user) -- node[midway, above, yshift=1pt] {Access} (frontend);
+      \draw[arrow] (frontend) -- node[midway, above, yshift=1pt] {API Req} (backend);
+      \draw[arrow] (backend) -- node[midway, above, yshift=1pt] {Read} (data);
+
+      % Return Arrows (Data Flow)
+      \draw[arrow, dashed, bend left=45] (data) to node[midway, below, yshift=-2pt] {Binary} (backend);
+      \draw[arrow, dashed, bend left=45] (backend) to node[midway, below, yshift=-2pt] {JSON} (frontend);
+      \draw[arrow, dashed, bend left=45] (frontend) to node[midway, below, yshift=-2pt] {View} (user);
+
+    \end{tikzpicture}
+  }
+  \caption{システム全体構成図}
+  \label{fig:system_architecture}
+\end{figure}
+
+また、本研究ではシステム開発としての品質維持と、研究活動としての柔軟な試行錯誤を両立させる必要がある。
+そのため、プロジェクト内に`dev`ディレクトリを設け、研究目的の実験的なコードや解析アルゴリズムのプロトタイプ実装はここに配置する運用とした。
+これにより、研究開発のスピードを落とすことなく、本番稼働システムのコードベースをクリーンに保つことが可能となっている。
+
+\subsubsection{バックエンド設計}
+バックエンドの実装においては、保守性と拡張性を高めるため、レイヤードアーキテクチャを採用し、責務を以下の4層に分離している。
+
+\begin{itemize}
+  \item \textbf{Handler層}: クライアントからのHTTPリクエストを受け付け、Usecase層へ処理を委譲し、その結果をレスポンスとして返却する。
+  \item \textbf{Usecase層}: アプリケーション固有のビジネスロジックを実装し、具体的な処理の流れを制御する。
+  \item \textbf{Service層}: 数値計算やデータ加工などのドメイン固有の計算処理（ビジネスロジック）を担当する。本層で実装されたロジックは、本番稼働システムだけでなく、前述の`dev`層での統計解析においても共通して利用される。これにより、研究成果をスムーズにシステムへ反映することが可能となっている。
+  \item \textbf{Repository層}: データソース（ファイルシステム上の.magファイル）へのアクセスを抽象化し、データの取得処理を一元管理する。
+\end{itemize}
+
+\subsubsection{技術スタック}
+本システムの開発および運用環境として、以下の技術スタックを選定した。
+
+\begin{itemize}
+  \item \textbf{バックエンド}: Python, FastAPI
+  \item \textbf{フロントエンド}: TypeScript, React, Tailwind CSS
+  \item \textbf{データベース (データソース)}: 研究室サーバー上の.magファイル (独自フォーマット)
+  \item \textbf{実行環境}: オンプレミスサーバー
+\end{itemize}
+
+バックエンドにPython (FastAPI) を採用した主な理由は、数値計算ライブラリが充実しており、システム開発と並行してデータ解析を効率的に行える点にある。
+Pythonは科学技術計算の分野で広く利用されており、本研究においてもデータの一次処理や解析アルゴリズムの実装に適している。
+また、Matplotlib等の描画ライブラリが豊富であるため、解析結果の可視化や検証も円滑に行うことができ、研究活動とシステム開発の相互運用性を高める上で最適な選択であるといえる。

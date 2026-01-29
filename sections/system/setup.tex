@@ -1,0 +1,57 @@
+\subsection{環境構築・ドキュメント}
+\label{sec:system_setup}
+本プロジェクトでは、macOS環境での開発を前提とし、以下の手順で開発環境を構築する。
+なお、本節に記載する情報は2026年2月時点のものである。
+macOS におけるパッケージ管理を簡便に行うため、各種開発ツールのインストールには Homebrew の利用を推奨する。
+
+\subsubsection{必要なツールのインストール}
+まず、以下の開発ツールを導入する。
+
+\begin{itemize}
+    \item \textbf{Homebrew}: macOSのパッケージ管理ツール。
+    \item \textbf{Git}: ソースコード管理ツール。
+    \item \textbf{Docker}: コンテナ仮想化プラットフォーム。
+    \item \textbf{uv}: 高速なPythonパッケージマネージャー（バックエンド用）。
+    \item \textbf{Node.js}: JavaScript実行環境（フロントエンド用）。
+\end{itemize}
+
+\subsubsection{プロジェクトのセットアップ}
+リポジトリをクローンした後、プロジェクトルートで以下のコマンドを実行することで、初期セットアップが完了する。
+
+\begin{lstlisting}
+git clone https://github.com/kikudesuyo/magdas
+cd magdas
+make init
+\end{lstlisting}
+
+\texttt{make init}コマンドにより、バックエンドの依存ライブラリ（\texttt{uv sync}）およびフロントエンドの依存ライブラリ（\texttt{npm install}）が一括でインストールされる。
+
+\subsubsection{データ管理}
+解析用の観測データ（.mgdファイル等）はリポジトリには含めず、ローカル環境の\texttt{backend/Storage}ディレクトリに個別に配置する運用としている。
+これにより、機密性の高いデータや容量の大きなデータをGit管理から除外しつつ、開発環境で本番同様の解析フローを再現することを可能にしている。
+
+\subsubsection{アプリケーションの起動}
+開発時のアプリケーション起動方法は、以下の2パターンを用意している。
+
+\begin{enumerate}
+    \item \textbf{Dockerでの一括起動（推奨）}: \\
+    \texttt{make up}コマンドを実行することで、バックエンドとフロントエンドをコンテナとして一括起動する。実環境との差異が少なく、手軽に動作確認を行うことが可能である。
+    コンテナ起動後は、以下のURLでアクセス可能となる。
+    \begin{itemize}
+        \item フロントエンド: \url{http://localhost:5173}
+        \item バックエンドAPI: \url{http://localhost:8000}
+    \end{itemize}
+
+    \item \textbf{ローカルでの個別起動}: \\
+    デバッグ等の目的で、各サービスを個別に起動する場合に使用する。
+
+    \textbf{バックエンド起動}:
+\begin{lstlisting}
+make be-dev
+\end{lstlisting}
+
+    \textbf{フロントエンド起動}:
+\begin{lstlisting}
+make fe-dev
+\end{lstlisting}
+\end{enumerate}
