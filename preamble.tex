@@ -1,3 +1,4 @@
+%!TEX root = main.tex
 % Utility packages
 \usepackage{graphicx} % For images
 \usepackage{amsmath, amssymb} % For math
@@ -10,6 +11,15 @@
 \usetikzlibrary{shapes, arrows, positioning, shapes.geometric, shadows}
 \usepackage{listings} % For code listing
 \usepackage{xcolor} % For colors
+\usepackage{fancyhdr} % For headers and footers
+
+% Configure headers and footers
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\leftmark}
+\rhead{}
+\cfoot{\thepage}
+
 
 % Define Markdown-like listing style
 \definecolor{codegray}{rgb}{0.95,0.95,0.95}
