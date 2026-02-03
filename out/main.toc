@@ -5,38 +5,55 @@
 \contentsline {subsection}{\numberline {1.4}本論文の構成}{4}{subsection.1.4}%
 \contentsline {section}{\numberline {2}導入}{4}{section.2}%
 \contentsline {subsection}{\numberline {2.1}MAGDAS観測網の概要}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}INTERMAGNETおよびTTBデータ}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}地磁気日変化とSq電流}{6}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}赤道ジェット電流(EEJ)}{6}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}磁気赤道域における潮汐効果の関係}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {3}EE-index}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}EE-indexの定義}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}EE-index算出に用いるデータ}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}EE-indexの算出方法}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}EE-index精度向上方法}{8}{subsection.3.4}%
-\contentsline {section}{\numberline {4}特異型EEJと自動判定の手法}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}特異型EEJとは}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}未発達型・突発型}{9}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}特異型EEJの自動判定の手法}{9}{subsection.4.3}%
-\contentsline {section}{\numberline {5}結果: 特異型EEJの発生特性}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}解析条件および対象期間}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}南米領域（ペルー・ブラジル）の解析結果}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}ブラジル領域における解析結果}{10}{subsection.5.3}%
-\contentsline {section}{\numberline {6}考察}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}南米領域における特異型EEJ発生要因}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}季節依存性との関連性}{10}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}潮汐効果との関連性}{10}{subsection.6.3}%
-\contentsline {section}{\numberline {7}宇宙天気データベースシステムへの応用}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}システム開発の目的}{10}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}システム全体構成}{10}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}全体構成とリポジトリ運用の工夫}{10}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}バックエンド設計}{11}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}技術スタック}{11}{subsubsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.3}開発手法}{12}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}環境構築・ドキュメント}{12}{subsection.7.4}%
-\contentsline {subsubsection}{\numberline {7.4.1}必要なツールのインストール}{12}{subsubsection.7.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.2}プロジェクトのセットアップ}{12}{subsubsection.7.4.2}%
-\contentsline {subsubsection}{\numberline {7.4.3}データ管理}{12}{subsubsection.7.4.3}%
-\contentsline {subsubsection}{\numberline {7.4.4}アプリケーションの起動}{13}{subsubsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.5}今後の課題}{13}{subsection.7.5}%
-\contentsline {section}{\numberline {8}総括}{14}{section.8}%
+\contentsline {subsection}{\numberline {2.2}INTERMAGNETおよびTTBデータ}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Sq電流}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}赤道ジェット電流(EEJ)}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}磁気赤道域における潮汐効果の関係}{7}{subsection.2.5}%
+\contentsline {section}{\numberline {3}EE-index}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}EE-indexの定義}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}EE-index算出に用いるデータ}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}EE-indexの算出方法}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}EE-index精度向上方法}{10}{subsection.3.4}%
+\contentsline {section}{\numberline {4}特異型EEJと自動判定の手法}{10}{section.4}%
+\contentsline {subsection}{\numberline {4.1}特異型EEJとは}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}特異型EEJの分類}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}未発達型 (Undeveloped type)}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}突発型 (Sudden type)}{11}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}先行研究における特異型EEJのレビュー}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}特異型EEJの自動判定手法}{12}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}指標の定義}{12}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}特異型EEJの抽出}{13}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}特異型EEJの分類}{13}{subsubsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.5}自動判定の結果}{14}{subsection.4.5}%
+\contentsline {section}{\numberline {5}結果: 特異型EEJの発生特性}{14}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}解析期間と対象データ}{15}{subsubsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.1}ペルー・ブラジル領域における解析結果}{15}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}データセット}{15}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}季節依存性との対応関係}{16}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}月潮汐効果との対応関係}{16}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}ブラジル領域における解析結果}{17}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}データセット}{17}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}季節依存性}{18}{subsubsection.5.2.2}%
+\contentsline {paragraph}{未発達型}{18}{section*.3}%
+\contentsline {paragraph}{突発型}{18}{section*.4}%
+\contentsline {subsubsection}{\numberline {5.2.3}月潮汐効果}{18}{subsubsection.5.2.3}%
+\contentsline {paragraph}{未発達型}{18}{section*.5}%
+\contentsline {paragraph}{突発型}{18}{section*.6}%
+\contentsline {section}{\numberline {6}考察}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}ペルー・ブラジル領域における特異型EEJ発生要因}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}季節依存性との関連性}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}潮汐効果との関連性}{18}{subsection.6.3}%
+\contentsline {section}{\numberline {7}宇宙天気データベースシステムへの応用}{18}{section.7}%
+\contentsline {subsection}{\numberline {7.1}システム開発の目的}{18}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}システム全体構成}{18}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}全体構成とリポジトリ運用の工夫}{18}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}バックエンド設計}{19}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}技術スタック}{19}{subsubsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.3}開発手法}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}環境構築・ドキュメント}{20}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}必要なツールのインストール}{20}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}プロジェクトのセットアップ}{20}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}データ管理}{21}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}アプリケーションの起動}{21}{subsubsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.5}今後の課題}{21}{subsection.7.5}%
+\contentsline {section}{\numberline {8}総括}{22}{section.8}%

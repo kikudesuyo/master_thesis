@@ -1,0 +1,20 @@
+
+# Project Rules
+
+## Terminology
+- **Offdip**: Always use "Offdip" instead of "Off-dip". Correct the spelling if "Off-dip" is found.
+- **EE-index**: Ensure consistent capitalization and hyphenation.
+- **Peculiar EEJ**: Always use "Peculiar EEJ" instead of "Peculiar EEJ". Correct the spelling if "Peculiar EEJ" is found.
+  突発型はSudden type、未発達型はUndeveloped typeと訳す。
+
+本研究ではペルー・ブラジル領域(ANC, HUA, EUS)とブラジル領域(TTB, EUS)の調査を行っている。
+どちらも南米領域であるため、それぞれをペルー・ブラジル、ブラジルで表記すること。
+
+MAGDASはMAGDASとして表記をすること。CPMNはいらない。
+
+観測点はカタカナで表記しないこと。例: EUS, TTB
+
+図の引用は、\citeauthor{Fujimoto2019} \citeyear{Fujimoto2019}より引用）の形式で書くこと。修士論文を引用する場合は、\citeauthor{Ikesue2024}\citetype{Ikesue2024} \citeyear{Ikesue2024}より引用）の形式で書くこと。
+
+## Communication
+- **Language**: Always communicate in Japanese.

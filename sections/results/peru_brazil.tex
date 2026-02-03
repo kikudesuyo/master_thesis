@@ -1,0 +1,79 @@
+\subsection{ペルー・ブラジル領域における解析結果}
+\label{sec:result_peru_brazil}
+
+\subsubsection{データセット}
+ペルー・ブラジル領域では、以下の3つのMAGDAS観測点のデータを使用した。
+観測点の配置を表\ref{tab:station_info_pb}に示す。
+
+\begin{table}[htbp]
+  \centering
+  \caption{ペルー・ブラジル領域の観測点情報}
+  \label{tab:station_info_pb}
+  \begin{tabular}{llcc}
+    \toprule
+    Code & Name & Nation & Dip Lat. \\
+    \midrule
+    ANC & Ancon & Peru & $0.13^\circ$ \\
+    HUA & Huancayo & Peru & $-0.17^\circ$ \\
+    EUS & Eusebio & Brazil & $-9.41^\circ$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+ANCおよびHUAは磁気赤道直下（Dip equator）に位置しており、EUSは磁気赤道から離れた低緯度地域（Offdip equator）に位置している。
+
+\subsubsection{季節依存性との対応関係}
+未発達型と突発型の月ごとの発生割合を図\ref{fig:undeveloped_monthly}に示す。
+
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_peru_brazil_undeveloped_month.png}
+    \caption{未発達型EEJの月ごとの発生割合（2009-2020年）}
+    \label{fig:undeveloped_monthly}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_peru_brazil_sudden_month.png}
+    \caption{突発型EEJの月ごとの発生割合（2009-2020年）}
+    \label{fig:sudden_monthly}
+  \end{minipage}
+\end{figure}
+
+解析の結果、未発達型は南半球の冬至にあたるJ-solstice（5〜7月）において、発生率が高い傾向を示した。これは、当該期間に南半球のSq電流系が弱まることに起因すると考えられる。Sq電流の弱化により、EEJの効果が磁場変動を増大させても十分な発達には至らず、結果として未発達な振幅特性が形成されたと推察される。
+
+一方、突発型においては顕著な季節依存性は見られなかった。これは未発達型とは異なり、Sq電流の季節的な強弱が、dip EUELの振幅をoff-dip EUELに対して相対的に押し下げる決定的な要因ではないことを示唆している。以上のことから、突発型にはSq電流の背景場に依存しない、別の物理プロセスが関与している可能性が高い。
+
+
+
+\subsubsection{月潮汐効果との対応関係}
+未発達型と突発型ごとの発生割合を図\ref{fig:undeveloped_lunar}、図\ref{fig:sudden_lunar}に示す。
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_peru_brazil_undeveloped_lunar.png}
+    \caption{未発達型EEJの月齢ごとの発生割合（2009-2020年）}
+    \label{fig:undeveloped_lunar}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_peru_brazil_sudden_lunar.png}
+    \caption{突発型EEJの月齢ごとの発生割合（2009-2020年）}
+    \label{fig:sudden_lunar}
+  \end{minipage}
+\end{figure}
+
+解析の結果、未発達型においては、Lunar age=6--9および15--21付近で高い傾向が見られた。
+これは月潮汐効果によってEUELが抑制される期間（Lunar age=6--9, 18--21）と概ね一致している（\ref{sec:tidal_effects}節参照）。
+すなわち、これらの期間では潮汐効果に起因する西向き電流が背景の東向き電流を弱める働きをするため、EEJが十分に発達せず、未発達型が高頻度で観測されたと考えられる。
+
+一方、突発型においては、Lunar age=6--10で高い傾向が見られた。
+この期間も同様に月潮汐効果による電流抑制が働く時期と重なっており、突発型の発生にも月潮汐効果が関与している可能性が示唆される。
+しかしながら、同様に潮汐効果によってEUELを押し下げるLunar age=18--21の期間においては、高い傾向は見られなかった。
+本研究でこれまで用いてきた解析は、dip赤道領域ではペルーのANC, HUA, offdip領域ではブラジルのEUS観測点を用いて行っており、両地域間の経度差が評価に影響を及ぼしている可能性がある。
+特に突発型のLunar age=18--21のみ発生頻度が低下した要因を明らかにするために、経度差の影響を排除し、より正確な解析を行うこととした。
+そこで次節では、INTERMAGNETのTTB観測点を用いて、ブラジル領域に限定した特異型EEJの発生特性の解析を行う。
