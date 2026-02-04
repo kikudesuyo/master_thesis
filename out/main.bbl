@@ -5,13 +5,13 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[Rastogi et~al.(1994)Rastogi, Alex, and Patil]{Rastogi1994}
-R.~G. Rastogi, S.~Alex, and A.~Patil.
-\newblock Seasonal variations of geomagnetic d, h and z fields at low
-  latitudes.
-\newblock \emph{Journal of Geomagnetism and Geoelectricity}, 46\penalty0
-  (2):\penalty0 115--126, 1994.
-\newblock \doi{10.5636/jgg.46.115}.
+\bibitem[Fujimoto et~al.(2016)Fujimoto, Uozumi, Abe, Matsushita, Imajo,
+  Ishitsuka, and Yoshikawa]{Fujimoto2016}
+Akiko Fujimoto, Teiji Uozumi, Shuji Abe, Hiroki Matsushita, Shun Imajo, Jose~K.
+  Ishitsuka, and Akimasa Yoshikawa.
+\newblock Long-term eej variations by using the improved ee-index.
+\newblock \emph{Sun and Geosphere}, 11\penalty0 (1):\penalty0 37--47, 2016.
+\newblock ISSN 2367-8852.
 
 \bibitem[Fujimoto et~al.(2019)Fujimoto, Yoshikawa, Uozumi, and
   Abe]{Fujimoto2019}
@@ -20,6 +20,24 @@ Akiko Fujimoto, Akimasa Yoshikawa, Teiji Uozumi, and Shuji Abe.
   during quiet and disturbed periods.
 \newblock \emph{E3S Web of Conferences}, 127:\penalty0 0, 2019.
 \newblock \doi{10.1051/e3sconf/20191270}.
+
+\bibitem[{Meta Platforms, Inc.}()]{React}
+{Meta Platforms, Inc.}
+\newblock React.
+\newblock \url{https://ja.react.dev/}.
+
+\bibitem[Ramírez()]{FastAPI}
+Sebastián Ramírez.
+\newblock Fastapi.
+\newblock \url{https://fastapi.tiangolo.com/}.
+
+\bibitem[Rastogi et~al.(1994)Rastogi, Alex, and Patil]{Rastogi1994}
+R.~G. Rastogi, S.~Alex, and A.~Patil.
+\newblock Seasonal variations of geomagnetic d, h and z fields at low
+  latitudes.
+\newblock \emph{Journal of Geomagnetism and Geoelectricity}, 46\penalty0
+  (2):\penalty0 115--126, 1994.
+\newblock \doi{10.5636/jgg.46.115}.
 
 \bibitem[Uozumi et~al.(2008)Uozumi, Yumoto, Kitamura, Abe, Kakinami, Shinohara,
   Yoshikawa, Kawano, Ueno, Tokunaga, McNamara, Ishituka, Dutra, Damtie,
@@ -34,28 +52,10 @@ Teiji Uozumi, Kiyohumi Yumoto, Kentarou Kitamura, Shuji Abe, Yoshihiro
   equatorial electrojet by magdas/cpmn real-time data: Ee-index.
 \newblock \emph{Earth, Planets and Space}, 60:\penalty0 785--790, 2008.
 
-\bibitem[Fujimoto et~al.(2016)Fujimoto, Uozumi, Abe, Matsushita, Imajo,
-  Ishitsuka, and Yoshikawa]{Fujimoto2016}
-Akiko Fujimoto, Teiji Uozumi, Shuji Abe, Hiroki Matsushita, Shun Imajo, Jose~K.
-  Ishitsuka, and Akimasa Yoshikawa.
-\newblock Long-term eej variations by using the improved ee-index.
-\newblock \emph{Sun and Geosphere}, 11\penalty0 (1):\penalty0 37--47, 2016.
-\newblock ISSN 2367-8852.
-
 \bibitem[池末(2024)]{Ikesue2024}
 暉 池末.
 \newblock
   特異的減少傾向を持つ赤道ジェット電流の発生特性について.
 \newblock 修士論文, 九州大学, 2024.
-
-\bibitem[Ramírez()]{FastAPI}
-Sebastián Ramírez.
-\newblock Fastapi.
-\newblock \url{https://fastapi.tiangolo.com/}.
-
-\bibitem[{Meta Platforms, Inc.}()]{React}
-{Meta Platforms, Inc.}
-\newblock React.
-\newblock \url{https://ja.react.dev/}.
 
 \end{thebibliography}

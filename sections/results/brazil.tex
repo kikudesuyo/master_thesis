@@ -5,6 +5,9 @@
 ブラジル領域では、以下の2つの観測点のデータを使用した。
 観測点の配置を表\ref{tab:station_info_br}に示す。
 
+期間: 2009~2020
+条件: Kp<4かつEDst>-30nT
+
 \begin{table}[htbp]
   \centering
   \caption{ブラジル領域の観測点情報}
@@ -21,16 +24,51 @@
 
 TTBは磁気赤道付近（Dip equator）に位置しており、EUSは磁気赤道から離れた低緯度地域（Offdip equator）に位置している。
 
+なお、dip観測点とoffdip観測点のEUELの相関係数の閾値は0.55に設定した。
+
 \subsubsection{季節依存性}
-\paragraph{未発達型}
-（ここにブラジル領域での未発達型の季節依存性の結果を記述予定）
+未発達型と突発型の月ごとの発生割合を図\ref{fig:undeveloped_monthly}に示す。
 
-\paragraph{突発型}
-（ここにブラジル領域での突発型の季節依存性の結果を記述予定）
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_brazil_undeveloped_month.png}
+    \caption{未発達型EEJの月ごとの発生割合（2009-2020年）}
+    \label{fig:undeveloped_monthly}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_brazil_sudden_month.png}
+    \caption{突発型EEJの月ごとの発生割合（2009-2020年）}
+    \label{fig:sudden_monthly}
+  \end{minipage}
+\end{figure}
 
-\subsubsection{月潮汐効果}
-\paragraph{未発達型}
-（ここにブラジル領域での未発達型の月潮汐効果の結果を記述予定）
+解析の結果、未発達型は南半球の冬至にあたるJ-solstice（5〜7月）において、発生率が高い傾向を示した。これは、当該期間に南半球のSq電流系が弱まることに起因すると考えられる。Sq電流の弱化により、EEJの効果が磁場変動を増大させても十分な発達には至らず、結果として未発達な振幅特性が形成されたと推察される。
 
-\paragraph{突発型}
-（ここにブラジル領域での突発型の月潮汐効果の結果を記述予定）
+一方、突発型においては顕著な季節依存性は見られなかった。これは未発達型とは異なり、Sq電流の季節的な強弱が、dip EUELの振幅をoff-dip EUELに対して相対的に押し下げる決定的な要因ではないことを示唆している。以上のことから、突発型にはSq電流の背景場に依存しない、別の物理プロセスが関与している可能性が高い。
+
+
+
+
+
+\subsubsection{月潮汐効果との対応関係}
+\begin{figure}[htbp]
+  \centering
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_brazil_undeveloped_lunar.png}
+    \caption{未発達型EEJの月齢ごとの発生割合（2009-2020年）}
+    \label{fig:undeveloped_lunar}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{figures/2009-2020_brazil_sudden_lunar.png}
+    \caption{突発型EEJの月齢ごとの発生割合（2009-2020年）}
+    \label{fig:sudden_lunar}
+  \end{minipage}
+\end{figure}
+

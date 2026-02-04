@@ -372,6 +372,14 @@ INPUT ./figures/2009-2020_peru_brazil_undeveloped_lunar.png
 INPUT ./figures/2009-2020_peru_brazil_sudden_lunar.png
 INPUT ./figures/2009-2020_peru_brazil_sudden_lunar.png
 INPUT ./sections/results/brazil.tex
+INPUT ./figures/2009-2020_brazil_undeveloped_month.png
+INPUT ./figures/2009-2020_brazil_undeveloped_month.png
+INPUT ./figures/2009-2020_brazil_sudden_month.png
+INPUT ./figures/2009-2020_brazil_sudden_month.png
+INPUT ./figures/2009-2020_brazil_undeveloped_lunar.png
+INPUT ./figures/2009-2020_brazil_undeveloped_lunar.png
+INPUT ./figures/2009-2020_brazil_sudden_lunar.png
+INPUT ./figures/2009-2020_brazil_sudden_lunar.png
 INPUT ./sections/discussion/peru_brazil_factors.tex
 INPUT ./sections/discussion/seasonal_dependence.tex
 INPUT ./sections/discussion/tidal_effects.tex
