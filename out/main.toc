@@ -1,73 +1,72 @@
-\contentsline {section}{\numberline {1}序論}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}研究背景}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}特異型EEJ研究の現状と課題}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}本研究の目的}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}本論文の構成}{3}{subsection.1.4}%
-\contentsline {section}{\numberline {2}導入}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}MAGDAS観測網の概要}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}INTERMAGNETおよびTTBデータ}{4}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Sq電流}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}赤道ジェット電流(EEJ)}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}磁気赤道域における潮汐効果の関係}{6}{subsection.2.5}%
-\contentsline {section}{\numberline {3}EE-index}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}EE-indexの定義}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}EE-index算出に用いるデータ}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}EE-indexの算出方法}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}EE-index精度向上方法}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}特異型EEJと自動判定の手法}{9}{section.4}%
-\contentsline {subsection}{\numberline {4.1}特異型EEJとは}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}特異型EEJの分類}{10}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}未発達型 (Undeveloped type)}{10}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}突発型 (Sudden type)}{10}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}先行研究における特異型EEJのレビュー}{10}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}特異型EEJの自動判定手法}{12}{subsection.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.1}指標の定義}{12}{subsubsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.2}特異型EEJの抽出}{13}{subsubsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.3}特異型EEJの分類}{13}{subsubsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.5}自動判定の結果}{14}{subsection.4.5}%
-\contentsline {section}{\numberline {5}結果: 特異型EEJの発生特性}{15}{section.5}%
-\contentsline {subsubsection}{\numberline {5.0.1}解析期間と対象データ}{15}{subsubsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.1}ペルー・ブラジル領域における解析結果}{15}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}データセット}{15}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}季節依存性との対応関係}{15}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}月潮汐効果との対応関係}{16}{subsubsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.2}ブラジル領域における解析結果}{17}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}データセット}{17}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}季節依存性}{17}{subsubsection.5.2.2}%
-\contentsline {paragraph}{未発達型}{17}{section*.3}%
-\contentsline {paragraph}{突発型}{17}{section*.4}%
-\contentsline {subsubsection}{\numberline {5.2.3}月潮汐効果}{17}{subsubsection.5.2.3}%
-\contentsline {paragraph}{未発達型}{17}{section*.5}%
-\contentsline {paragraph}{突発型}{17}{section*.6}%
-\contentsline {section}{\numberline {6}考察}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}ペルー・ブラジル領域における特異型EEJ発生要因}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}季節依存性との関連性}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}潮汐効果との関連性}{18}{subsection.6.3}%
-\contentsline {section}{\numberline {7}宇宙天気データベースシステムへの応用}{18}{section.7}%
-\contentsline {subsection}{\numberline {7.1}システム開発の目的}{18}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}システム全体構成}{18}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}全体構成とリポジトリ運用の工夫}{18}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}バックエンド設計}{19}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}技術スタック}{19}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}バックエンドフレームワーク: FastAPI}{20}{subsubsection.7.2.4}%
-\contentsline {paragraph}{FastAPIとは}{20}{section*.7}%
-\contentsline {paragraph}{特徴}{20}{section*.8}%
-\contentsline {paragraph}{他フレームワークとの比較}{20}{section*.9}%
-\contentsline {paragraph}{選定理由}{20}{section*.10}%
-\contentsline {paragraph}{本システムでの適用による効果}{21}{section*.11}%
-\contentsline {subsubsection}{\numberline {7.2.5}フロントエンドライブラリ: React}{21}{subsubsection.7.2.5}%
-\contentsline {paragraph}{コンポーネント指向アーキテクチャ}{21}{section*.12}%
-\contentsline {paragraph}{仮想DOMによる高速な描画}{21}{section*.13}%
-\contentsline {paragraph}{宣言的なUI記述}{21}{section*.14}%
-\contentsline {subsection}{\numberline {7.3}機能一覧}{22}{subsection.7.3}%
-\contentsline {subsubsection}{\numberline {7.3.1}EE-indexのプロット機能}{22}{subsubsection.7.3.1}%
-\contentsline {subsubsection}{\numberline {7.3.2}ローカルタイムのEUELのプロット機能}{22}{subsubsection.7.3.2}%
-\contentsline {subsubsection}{\numberline {7.3.3}MAGDAS観測データのダウンロード}{23}{subsubsection.7.3.3}%
-\contentsline {subsection}{\numberline {7.4}環境構築・ドキュメント}{24}{subsection.7.4}%
-\contentsline {subsubsection}{\numberline {7.4.1}必要なツールのインストール}{24}{subsubsection.7.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.2}プロジェクトのセットアップ}{24}{subsubsection.7.4.2}%
-\contentsline {subsubsection}{\numberline {7.4.3}データ管理}{25}{subsubsection.7.4.3}%
-\contentsline {subsubsection}{\numberline {7.4.4}アプリケーションの起動}{25}{subsubsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.5}今後の課題}{25}{subsection.7.5}%
-\contentsline {section}{\numberline {8}総括}{26}{section.8}%
-}%
+\contentsline {section}{\numberline {1}序論}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}研究背景}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}特異型EEJ研究の現状と課題}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}本研究の目的}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}本論文の構成}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}導入}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}MAGDAS観測網の概要}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}INTERMAGNETおよびTTBデータ}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Sq電流}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}赤道ジェット電流(EEJ)}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}磁気赤道域における潮汐効果の関係}{8}{subsection.2.5}%
+\contentsline {section}{\numberline {3}EE-index}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}EE-indexの定義}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}EE-index算出に用いるデータ}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}EE-indexの算出方法}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}EE-index精度向上方法}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}特異型EEJと自動判定の手法}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}特異型EEJとは}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}特異型EEJの分類}{12}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}未発達型 (Undeveloped type)}{12}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}突発型 (Sudden type)}{12}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}先行研究における特異型EEJのレビュー}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}特異型EEJの自動判定手法}{14}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}指標の定義}{14}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}特異型EEJの抽出}{15}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}特異型EEJの分類}{15}{subsubsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.5}自動判定の結果}{16}{subsection.4.5}%
+\contentsline {section}{\numberline {5}結果: 特異型EEJの発生特性}{17}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}解析期間と対象データ}{17}{subsubsection.5.0.1}%
+\contentsline {subsection}{\numberline {5.1}ペルー・ブラジル領域における解析結果}{17}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}データセット}{17}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}季節依存性との対応関係}{17}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}月潮汐効果との対応関係}{18}{subsubsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.2}ブラジル領域における解析結果}{19}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}データセット}{19}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}季節依存性}{19}{subsubsection.5.2.2}%
+\contentsline {paragraph}{未発達型}{19}{section*.3}%
+\contentsline {paragraph}{突発型}{19}{section*.4}%
+\contentsline {subsubsection}{\numberline {5.2.3}月潮汐効果}{19}{subsubsection.5.2.3}%
+\contentsline {paragraph}{未発達型}{19}{section*.5}%
+\contentsline {paragraph}{突発型}{19}{section*.6}%
+\contentsline {section}{\numberline {6}考察}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}ペルー・ブラジル領域における特異型EEJ発生要因}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}季節依存性との関連性}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}潮汐効果との関連性}{20}{subsection.6.3}%
+\contentsline {section}{\numberline {7}宇宙天気データベースシステムへの応用}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}システム開発の目的}{21}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}システム全体構成}{21}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}全体構成とリポジトリ運用の工夫}{21}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}バックエンド設計}{22}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}技術スタック}{22}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}バックエンドフレームワーク: FastAPI}{22}{subsubsection.7.2.4}%
+\contentsline {paragraph}{FastAPIとは}{22}{section*.7}%
+\contentsline {paragraph}{特徴}{23}{section*.8}%
+\contentsline {paragraph}{他フレームワークとの比較}{23}{section*.9}%
+\contentsline {paragraph}{選定理由}{23}{section*.10}%
+\contentsline {paragraph}{本システムでの適用による効果}{24}{section*.11}%
+\contentsline {subsubsection}{\numberline {7.2.5}フロントエンドライブラリ: React}{24}{subsubsection.7.2.5}%
+\contentsline {paragraph}{コンポーネント指向アーキテクチャ}{24}{section*.12}%
+\contentsline {paragraph}{仮想DOMによる高速な描画}{24}{section*.13}%
+\contentsline {paragraph}{宣言的なUI記述}{24}{section*.14}%
+\contentsline {subsection}{\numberline {7.3}機能一覧}{25}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}EE-indexのプロット機能}{25}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}ローカルタイムのEUELのプロット機能}{25}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}MAGDAS観測データのダウンロード}{26}{subsubsection.7.3.3}%
+\contentsline {subsection}{\numberline {7.4}環境構築・ドキュメント}{27}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}必要なツールのインストール}{27}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}プロジェクトのセットアップ}{27}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}データ管理}{28}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}アプリケーションの起動}{28}{subsubsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.5}今後の課題}{28}{subsection.7.5}%
+\contentsline {section}{\numberline {8}総括}{30}{section.8}%
