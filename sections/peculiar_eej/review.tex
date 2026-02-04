@@ -5,17 +5,22 @@
 
 
 同研究では、2014年から2020年の期間におけるMAGDAS観測網のデータを用いた解析が行われた。
-解析対象の観測点として、ペルー領域のANC, HUA, EUSが使用された。
-また、地磁気静穏時のイベントを抽出するために、Kp指数が4未満 ($Kp < 4$)、かつ赤道擾乱指数 (EDst) が-30 nTより大きい ($EDst > -30$ nT) という条件が適用された。
+解析条件は以下の通りである。
 
-特異型EEJの分類方法として下記のように*目視*で分類した(figure:ikesue_peculiar_type)
-1: 未発達型
-dip観測点においてEEJが発達しておらず,offdip観測点のEUELと同程度の形状を示す
-2: 突発型
-    EEJが本来卓越する時間帯(12:00LT)で大きな落ち込みを見せる形状
-    特にdip観測点のピークが0nT以下になるものを**CEJ型**、0nT以上になるものを**急落型**と定義した
-3: その他型
-    上記した型に当てはまらなく大きく乱れている形状
+\begin{description}
+  \item[対象観測点] ペルー領域のANC, HUA, EUS
+  \item[抽出条件] 地磁気静穏時のイベントを抽出するため、Kp指数が4未満 ($Kp < 4$)、かつEDstが-30 nTより大きい ($EDst > -30$ nT) とする。
+\end{description}
+
+特異型EEJの検出にあたって、\citeauthor{Ikesue2024}は目視による分類を行った（図\ref{fig:ikesue_peculiar_type}）。
+具体的な分類定義は以下の通りである。
+
+\begin{description}
+  \item[未発達型] dip観測点においてEEJが発達しておらず、offdip観測点のEUELと同程度の形状を示す。
+  \item[突発型] EEJが本来卓越する時間帯（12:00 LT）で大きな落ち込みを見せる形状。
+  特にdip観測点のピークが0 nT以下になるものを\textbf{CEJ型}、0 nT以上になるものを\textbf{急落型}と定義した。
+  \item[その他型] 上記した型に当てはまらず、大きく乱れている形状。
+\end{description}
 
 \begin{figure}[htbp]
   \centering
@@ -28,7 +33,7 @@ dip観測点においてEEJが発達しておらず,offdip観測点のEUELと同
 また、月潮汐効果の対応関係を調査したところDip観測点で西向き電流が流れる期間に突発型が多く発生しやすいことが示唆されていた。
 
 
-\begin{figure}[htbp]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{figures/ikesue_undeveloped.png}
   \caption{未発達型の季節変化 (\citeauthor{Ikesue2024}\citetype{Ikesue2024}より引用)}

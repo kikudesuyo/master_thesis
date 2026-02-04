@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -47,5 +47,15 @@ Akiko Fujimoto, Teiji Uozumi, Shuji Abe, Hiroki Matsushita, Shun Imajo, Jose~K.
 \newblock
   特異的減少傾向を持つ赤道ジェット電流の発生特性について.
 \newblock 修士論文, 九州大学, 2024.
+
+\bibitem[Ramírez()]{FastAPI}
+Sebastián Ramírez.
+\newblock Fastapi.
+\newblock \url{https://fastapi.tiangolo.com/}.
+
+\bibitem[{Meta Platforms, Inc.}()]{React}
+{Meta Platforms, Inc.}
+\newblock React.
+\newblock \url{https://ja.react.dev/}.
 
 \end{thebibliography}

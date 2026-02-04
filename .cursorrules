@@ -14,7 +14,7 @@ MAGDASはMAGDASとして表記をすること。CPMNはいらない。
 
 観測点はカタカナで表記しないこと。例: EUS, TTB
 
-図の引用は、\citeauthor{Fujimoto2019} \citeyear{Fujimoto2019}より引用）の形式で書くこと。修士論文を引用する場合は、\citeauthor{Ikesue2024}\citetype{Ikesue2024} \citeyear{Ikesue2024}より引用）の形式で書くこと。
+引用の方法は、（\citeauthor{Fujimoto2019} \citeyear{Fujimoto2019}より引用）の形式で書くこと。修士論文を引用する場合は、（\citeauthor{Ikesue2024}\citetype{Ikesue2024} \citeyear{Ikesue2024}より引用）の形式で書くこと。
 
 ## Communication
 - **Language**: Always communicate in Japanese.
