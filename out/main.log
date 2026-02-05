@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.1.19)  5 FEB 2026 01:24
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2026.1.19)  5 FEB 2026 10:28
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -1564,7 +1564,7 @@ LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 1.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 1.
-<figures/magdas_network.png, id=224, 644.4075pt x 441.65pt>
+<figures/magdas_network.png, id=219, 644.4075pt x 441.65pt>
 File: figures/magdas_network.png Graphic file (type png)
 <use figures/magdas_network.png>
 Package luatex.def Info: figures/magdas_network.png  used on input line 9.
@@ -1579,7 +1579,7 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.1'
 <./figures/magdas_network.png>]) (./sections/introduction/geomagnetic_sq.tex
-<figures/rastogi_sq.png, id=237, 327.2225pt x 557.08125pt>
+<figures/rastogi_sq.png, id=232, 327.2225pt x 557.08125pt>
 File: figures/rastogi_sq.png Graphic file (type png)
 <use figures/rastogi_sq.png>
 Package luatex.def Info: figures/rastogi_sq.png  used on input line 11.
@@ -1590,7 +1590,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'table.1'
 ]) (./sections/introduction/eej_cowling.tex [6
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.2'
 <./figures/rastogi_sq.png>]) (./sections/introduction/tidal_effects.tex
-<figures/anc_euel_lunar_age.png, id=259, 569.12625pt x 304.13625pt>
+<figures/anc_euel_lunar_age.png, id=254, 569.12625pt x 304.13625pt>
 File: figures/anc_euel_lunar_age.png Graphic file (type png)
 <use figures/anc_euel_lunar_age.png>
 Package luatex.def Info: figures/anc_euel_lunar_age.png  used on input line 11.
@@ -1614,12 +1614,12 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
  [10])
 (./sections/ee_index/accuracy_improvement.tex) [11]
 (./sections/peculiar_eej/definition.tex) (./sections/peculiar_eej/types.tex
-<figures/undeveloped_type.png, id=310, 393.47pt x 297.11pt>
+<figures/undeveloped_type.png, id=305, 393.47pt x 297.11pt>
 File: figures/undeveloped_type.png Graphic file (type png)
 <use figures/undeveloped_type.png>
 Package luatex.def Info: figures/undeveloped_type.png  used on input line 17.
 (luatex.def)             Requested size: 213.8513pt x 161.47517pt.
-<figures/sudden_type.png, id=311, 405.515pt x 303.1325pt>
+<figures/sudden_type.png, id=306, 405.515pt x 303.1325pt>
 File: figures/sudden_type.png Graphic file (type png)
 <use figures/sudden_type.png>
 Package luatex.def Info: figures/sudden_type.png  used on input line 24.
@@ -1641,13 +1641,13 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 21.
-<figures/ikesue_peculiar_type.png, id=327, 709.65125pt x 340.27126pt>
+<figures/ikesue_peculiar_type.png, id=321, 709.65125pt x 340.27126pt>
 File: figures/ikesue_peculiar_type.png Graphic file (type png)
 <use figures/ikesue_peculiar_type.png>
 Package luatex.def Info: figures/ikesue_peculiar_type.png  used on input line 2
 7.
 (luatex.def)             Requested size: 445.52753pt x 213.62955pt.
-<figures/ikesue_undeveloped.png, id=331, 713.66624pt x 379.4175pt>
+<figures/ikesue_undeveloped.png, id=325, 713.66624pt x 379.4175pt>
 File: figures/ikesue_undeveloped.png Graphic file (type png)
 <use figures/ikesue_undeveloped.png>
 Package luatex.def Info: figures/ikesue_undeveloped.png  used on input line 38.
@@ -1659,7 +1659,7 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.6'
 <./figures/ikesue_peculiar_type.png>] [14
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.7'
 <./figures/ikesue_undeveloped.png>]
-<figures/anc_hua_eus_euel_histgram.png, id=355, 300.12125pt x 190.7125pt>
+<figures/anc_hua_eus_euel_histgram.png, id=350, 300.12125pt x 190.7125pt>
 File: figures/anc_hua_eus_euel_histgram.png Graphic file (type png)
 <use figures/anc_hua_eus_euel_histgram.png>
 Package luatex.def Info: figures/anc_hua_eus_euel_histgram.png  used on input l
@@ -1668,7 +1668,7 @@ ine 27.
  [15
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.8'
 <./figures/anc_hua_eus_euel_histgram.png>]) (./sections/peculiar_eej/result.tex
-<figures/auto_visual.png, id=366, 578.16pt x 578.16pt>
+<figures/auto_visual.png, id=361, 578.16pt x 578.16pt>
 File: figures/auto_visual.png Graphic file (type png)
 <use figures/auto_visual.png>
 Package luatex.def Info: figures/auto_visual.png  used on input line 10.
@@ -1677,35 +1677,35 @@ Package luatex.def Info: figures/auto_visual.png  used on input line 10.
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.9'
 <./figures/auto_visual.png>] [17] (./sections/results/conditions.tex)
 (./sections/results/peru_brazil.tex
-<figures/2009-2020_peru_brazil_undeveloped_month.png, id=383, 462.528pt x 346.8
+<figures/2009-2020_peru_brazil_undeveloped_month.png, id=379, 462.528pt x 346.8
 96pt>
 File: figures/2009-2020_peru_brazil_undeveloped_month.png Graphic file (type pn
 g)
 <use figures/2009-2020_peru_brazil_undeveloped_month.png>
 Package luatex.def Info: figures/2009-2020_peru_brazil_undeveloped_month.png  u
-sed on input line 32.
+sed on input line 30.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
-<figures/2009-2020_peru_brazil_sudden_month.png, id=384, 462.528pt x 346.896pt>
+<figures/2009-2020_peru_brazil_sudden_month.png, id=380, 462.528pt x 346.896pt>
 
 File: figures/2009-2020_peru_brazil_sudden_month.png Graphic file (type png)
 <use figures/2009-2020_peru_brazil_sudden_month.png>
 Package luatex.def Info: figures/2009-2020_peru_brazil_sudden_month.png  used o
-n input line 39.
+n input line 37.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
-<figures/2009-2020_peru_brazil_undeveloped_lunar.png, id=387, 462.528pt x 346.8
+<figures/2009-2020_peru_brazil_undeveloped_lunar.png, id=383, 462.528pt x 346.8
 96pt>
 File: figures/2009-2020_peru_brazil_undeveloped_lunar.png Graphic file (type pn
 g)
 <use figures/2009-2020_peru_brazil_undeveloped_lunar.png>
 Package luatex.def Info: figures/2009-2020_peru_brazil_undeveloped_lunar.png  u
-sed on input line 61.
+sed on input line 58.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
-<figures/2009-2020_peru_brazil_sudden_lunar.png, id=388, 462.528pt x 346.896pt>
+<figures/2009-2020_peru_brazil_sudden_lunar.png, id=384, 462.528pt x 346.896pt>
 
 File: figures/2009-2020_peru_brazil_sudden_lunar.png Graphic file (type png)
 <use figures/2009-2020_peru_brazil_sudden_lunar.png>
 Package luatex.def Info: figures/2009-2020_peru_brazil_sudden_lunar.png  used o
-n input line 68.
+n input line 65.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
  [18
 
@@ -1726,18 +1726,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.13'
 <./figures/2009-2020_peru_brazil_undeveloped_month.png><./figures/2009-2020_peru
 _brazil_sudden_month.png><./figures/2009-2020_peru_brazil_undeveloped_lunar.png>
 <./figures/2009-2020_peru_brazil_sudden_lunar.png>]
-<figures/2009-2020_brazil_undeveloped_month.png, id=417, 462.528pt x 346.896pt>
+<figures/2009-2020_brazil_undeveloped_month.png, id=415, 462.528pt x 346.896pt>
 
 File: figures/2009-2020_brazil_undeveloped_month.png Graphic file (type png)
 <use figures/2009-2020_brazil_undeveloped_month.png>
 Package luatex.def Info: figures/2009-2020_brazil_undeveloped_month.png  used o
-n input line 36.
+n input line 31.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
-<figures/2009-2020_brazil_sudden_month.png, id=418, 462.528pt x 346.896pt>
+<figures/2009-2020_brazil_sudden_month.png, id=416, 462.528pt x 346.896pt>
 File: figures/2009-2020_brazil_sudden_month.png Graphic file (type png)
 <use figures/2009-2020_brazil_sudden_month.png>
 Package luatex.def Info: figures/2009-2020_brazil_sudden_month.png  used on inp
-ut line 43.
+ut line 38.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
  [20
 warning  (pdf backend): ignoring duplicate destination with the name 'table.4'
@@ -1749,18 +1749,18 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.15'
 
 <./figures/2009-2020_brazil_undeveloped_month.png><./figures/2009-2020_brazil_su
 dden_month.png>]
-<figures/2009-2020_brazil_undeveloped_lunar.png, id=431, 462.528pt x 346.896pt>
+<figures/2009-2020_brazil_undeveloped_lunar.png, id=430, 462.528pt x 346.896pt>
 
 File: figures/2009-2020_brazil_undeveloped_lunar.png Graphic file (type png)
 <use figures/2009-2020_brazil_undeveloped_lunar.png>
 Package luatex.def Info: figures/2009-2020_brazil_undeveloped_lunar.png  used o
-n input line 62.
+n input line 60.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
-<figures/2009-2020_brazil_sudden_lunar.png, id=432, 462.528pt x 346.896pt>
+<figures/2009-2020_brazil_sudden_lunar.png, id=431, 462.528pt x 346.896pt>
 File: figures/2009-2020_brazil_sudden_lunar.png Graphic file (type png)
 <use figures/2009-2020_brazil_sudden_lunar.png>
 Package luatex.def Info: figures/2009-2020_brazil_sudden_lunar.png  used on inp
-ut line 69.
+ut line 67.
 (luatex.def)             Requested size: 213.8513pt x 160.38924pt.
 ) [21
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.16'
@@ -1769,11 +1769,12 @@ warning  (pdf backend): ignoring duplicate destination with the name 'figure.16'
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.17'
 
 <./figures/2009-2020_brazil_undeveloped_lunar.png><./figures/2009-2020_brazil_su
-dden_lunar.png>] (./sections/discussion/peru_brazil_factors.tex)
-(./sections/discussion/seasonal_dependence.tex)
-(./sections/discussion/tidal_effects.tex) [22
+dden_lunar.png>] (./sections/discussion/reproduction.tex)
+(./sections/discussion/region_issues.tex)
+(./sections/discussion/brazil_undeveloped.tex [22
 
-] (./sections/system/purpose.tex)
+])
+(./sections/discussion/brazil_sudden.tex) [23] (./sections/system/purpose.tex)
 (./sections/system/architecture.tex(load cache: extra_lmroman9-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <9> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 84.
@@ -1792,33 +1793,33 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <8> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 84.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 6.75587pt on input line 84.
- [23
+ [24
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.18'
 
-] [24] [25]) (./sections/system/features.tex [26]
-<figures/web_ee-index_plot.png, id=490, 1716.4125pt x 951.555pt>
+] [25] [26]) (./sections/system/features.tex [27]
+<figures/web_ee-index_plot.png, id=507, 1716.4125pt x 951.555pt>
 File: figures/web_ee-index_plot.png Graphic file (type png)
 <use figures/web_ee-index_plot.png>
 Package luatex.def Info: figures/web_ee-index_plot.png  used on input line 13.
 (luatex.def)             Requested size: 445.52753pt x 246.99191pt.
-<figures/web_euel_plot.png, id=492, 1716.4125pt x 950.55125pt>
+<figures/web_euel_plot.png, id=509, 1716.4125pt x 950.55125pt>
 File: figures/web_euel_plot.png Graphic file (type png)
 <use figures/web_euel_plot.png>
 Package luatex.def Info: figures/web_euel_plot.png  used on input line 27.
 (luatex.def)             Requested size: 445.52753pt x 246.73137pt.
- [27
+ [28
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.19'
 
 <./figures/web_ee-index_plot.png>]
-<figures/web_ee-index_download.png, id=504, 1716.4125pt x 950.55125pt>
+<figures/web_ee-index_download.png, id=521, 1716.4125pt x 950.55125pt>
 File: figures/web_ee-index_download.png Graphic file (type png)
 <use figures/web_ee-index_download.png>
 Package luatex.def Info: figures/web_ee-index_download.png  used on input line 
 39.
 (luatex.def)             Requested size: 356.42337pt x 197.37349pt.
-) (./sections/system/setup.tex [28
+) (./sections/system/setup.tex [29
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.20'
 
 <./figures/web_euel_plot.png>](load cache: extra_lmmono10-regular.luc)
@@ -1829,7 +1830,7 @@ LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 Removing  `ltj.process_input_buffer' from `process_input_buffer'.
 Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
-Removing  `ltj.listings_unicode' from `process_input_buffer'. [29
+Removing  `ltj.listings_unicode' from `process_input_buffer'. [30
 warning  (pdf backend): ignoring duplicate destination with the name 'figure.21'
 
 <./figures/web_ee-index_download.png>]
@@ -1842,12 +1843,12 @@ Inserting `ltj.listings_unicode' in `process_input_buffer'.
 Inserting `ltj.process_input_buffer' in `process_input_buffer'.
 Removing  `ltj.listings_unicode' from `process_input_buffer'.) (./sections/syst
 em/future_issues.tex
-[30]) [31] (./sections/conclusion.tex) [32
+[31]) [32] (./sections/conclusion.tex) [33
 
 ] (./sections/acknowledgments.tex)
-[33
+[34
 
-] (./sections/appendix/peculiar_event.tex) [34
+] (./sections/appendix/peculiar_event.tex) [35
 
 ] (./out/main.bbl(load cache: extra_lmroman10-italic.luc)
 LaTeX Font Info:    Font shape `JT3/gt/m/it' in size <10> not available
@@ -1858,7 +1859,7 @@ LaTeX Font Info:    Font shape `JY3/gt/m/it' in size <10> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 13.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 8.44485pt on input line 13.
-) [35
+) [36
 
 ]
 (./out/main.aux)
@@ -1871,19 +1872,19 @@ L3 programming layer <2025-12-29>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 709D2FEE395A9082BA008FE2F2A0D5D9;4371.
+(rerunfilecheck)             Checksum: A0185EA74583E1291DE89557C630F4A3;4273.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28464 strings out of 476081
+ 28482 strings out of 476081
  195709,1144653 words of node,token memory allocated
- 3254 words of node memory still in use:
-   26 hlist, 2 vlist, 13 rule, 2 glue, 4 kern, 1 glyph, 992 attribute, 64 glue_s
-pec, 114 attribute_list, 2 write, 29 user_defined, 16 pdf_literal, 2 pdf_action,
- 16 pdf_colorstack nodes
-   avail lists: 1:16,2:50588,3:927,4:1622,5:508,6:105,7:6459,8:51,9:2542,10:43,1
+ 3278 words of node memory still in use:
+   26 hlist, 2 vlist, 13 rule, 2 glue, 4 kern, 1 glyph, 1003 attribute, 64 glue_
+spec, 115 attribute_list, 2 write, 29 user_defined, 16 pdf_literal, 2 pdf_action
+, 16 pdf_colorstack nodes
+   avail lists: 1:16,2:50576,3:927,4:1622,5:508,6:102,7:6459,8:51,9:2542,10:43,1
 1:604
- 49716 multiletter control sequences out of 65536+600000
+ 49724 multiletter control sequences out of 65536+600000
  67 fonts using 61078207 bytes
  119i,12n,112p,2028b,1060s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.ot
@@ -1909,10 +1910,10 @@ dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (36 pages, 2334850 bytes).
+Output written on main.pdf (37 pages, 2346137 bytes).
 
-PDF statistics: 698 PDF objects out of 1000 (max. 8388607)
- 537 compressed objects within 6 object streams
- 157 named destinations out of 1000 (max. 131072)
- 432 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 716 PDF objects out of 1000 (max. 8388607)
+ 554 compressed objects within 6 object streams
+ 161 named destinations out of 1000 (max. 131072)
+ 424 words of extra memory for PDF output out of 10000 (max. 100000000)
 

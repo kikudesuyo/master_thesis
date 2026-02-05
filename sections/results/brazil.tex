@@ -2,32 +2,27 @@
 \label{sec:result_brazil}
 
 \subsubsection{データセット}
-ブラジル領域では、以下の2つの観測点のデータを使用した。
-観測点の配置を表\ref{tab:station_info_br}に示す。
-
-期間: 2009~2020
-条件: Kp<4かつEDst>-30nT
+ブラジル領域において表\ref{tab:station_info_br}に示す2つの観測点のデータを用いた。
 
 \begin{table}[htbp]
   \centering
   \caption{ブラジル領域の観測点情報}
   \label{tab:station_info_br}
-  \begin{tabular}{llcc}
+  \begin{tabular}{llccc}
     \toprule
-    Code & Name & Nation & Dip Lat. \\
+    Code & Name & Nation & Dip Lat & Long \\
     \midrule
-    TTB & Tatuoca & Brazil & $0.20^\circ$ \\
-    EUS & Eusebio & Brazil & $-9.41^\circ$ \\
+    TTB & Tatuoca & Brazil & $0.20^\circ$ & $-48.51^\circ$ \\
+    EUS & Eusebio & Brazil & $-9.41^\circ$ & $-38.43^\circ$ \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-TTBは磁気赤道付近（Dip equator）に位置しており、EUSは磁気赤道から離れた低緯度地域（Offdip equator）に位置している。
-
-なお、dip観測点とoffdip観測点のEUELの相関係数の閾値は0.55に設定した。
+TTBは磁気赤道上（Dip equator）、EUSは磁気赤道から離れた低緯度地域（Offdip equator）に位置している。
+なお、本解析におけるDip観測点とOffdip観測点間のEUELの相関係数の閾値は0.55に設定した。
 
 \subsubsection{季節依存性}
-未発達型と突発型の月ごとの発生割合を図\ref{fig:undeveloped_monthly}に示す。
+未発達型と突発型の月ごとの発生割合を図\ref{fig:undeveloped_monthly}、図\ref{fig:sudden_monthly}に示す。
 
 \begin{figure}[htbp]
   \centering
@@ -46,15 +41,18 @@ TTBは磁気赤道付近（Dip equator）に位置しており、EUSは磁気赤
   \end{minipage}
 \end{figure}
 
-解析の結果、未発達型は南半球の冬至にあたるJ-solstice（5〜7月）において、発生率が高い傾向を示した。これは、当該期間に南半球のSq電流系が弱まることに起因すると考えられる。Sq電流の弱化により、EEJの効果が磁場変動を増大させても十分な発達には至らず、結果として未発達な振幅特性が形成されたと推察される。
+解析の結果、未発達型は南半球の冬至にあたるJ-solstice（5月〜7月）において、発生率が特に高い傾向を示した。
+具体的には、5月に103件中27件、6月に140件中47件、7月に139件中42件発生し、この期間の発生率のピークは約33\%であった。
+対照的に、夏至にあたるD-solstice（10月〜2月）においては、発生率が著しく低下した。
+具体的には、10月は120件中1件、11月は124件中1件、12月は132件中0件、1月は164件中1件、2月は99件中1件であり、発生率は約1\%に留まった。
 
-一方、突発型においては顕著な季節依存性は見られなかった。これは未発達型とは異なり、Sq電流の季節的な強弱が、dip EUELの振幅をoff-dip EUELに対して相対的に押し下げる決定的な要因ではないことを示唆している。以上のことから、突発型にはSq電流の背景場に依存しない、別の物理プロセスが関与している可能性が高い。
-
-
-
-
+突発型においては、9月と10月に発生率が高い傾向を示した。
+具体的には、9月に126件中10件、10月に88件中5件発生し、発生率は約8\%であった。
+一方で、それ以外の月は発生率が低く、いずれも2\%以下であった。
 
 \subsubsection{月潮汐効果との対応関係}
+未発達型と突発型の月齢ごとの発生割合を図\ref{fig:undeveloped_lunar}、図\ref{fig:sudden_lunar}に示す。
+
 \begin{figure}[htbp]
   \centering
   \begin{minipage}{0.48\linewidth}
@@ -72,3 +70,8 @@ TTBは磁気赤道付近（Dip equator）に位置しており、EUSは磁気赤
   \end{minipage}
 \end{figure}
 
+解析の結果、未発達型においては、Lunar age = 3--8で発生率が約18\%と最も高く、次いでLunar age = 14--22で約12\%のピークが確認された。
+一方、Lunar age = 0--2および9--13では発生率が低い傾向が見られた。
+
+突発型においては、Lunar age = 6--7で発生率が最も高く、次いでLunar age = 17--20で高い傾向が見られた。
+一方、Lunar age = 0--5, 8--16, 21--24では発生率が極めて低く、発生数が0件または1件のケースが大半を占めた。

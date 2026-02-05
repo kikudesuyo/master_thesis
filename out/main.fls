@@ -380,9 +380,10 @@ INPUT ./figures/2009-2020_brazil_undeveloped_lunar.png
 INPUT ./figures/2009-2020_brazil_undeveloped_lunar.png
 INPUT ./figures/2009-2020_brazil_sudden_lunar.png
 INPUT ./figures/2009-2020_brazil_sudden_lunar.png
-INPUT ./sections/discussion/peru_brazil_factors.tex
-INPUT ./sections/discussion/seasonal_dependence.tex
-INPUT ./sections/discussion/tidal_effects.tex
+INPUT ./sections/discussion/reproduction.tex
+INPUT ./sections/discussion/region_issues.tex
+INPUT ./sections/discussion/brazil_undeveloped.tex
+INPUT ./sections/discussion/brazil_sudden.tex
 INPUT ./sections/system/purpose.tex
 INPUT ./sections/system/architecture.tex
 INPUT /Users/kiku/Library/texlive/2025/texmf-var/luatex-cache/generic/fonts/otl/lmroman9-bold.luc
